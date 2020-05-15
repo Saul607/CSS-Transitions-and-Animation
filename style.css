@@ -1,0 +1,121 @@
+
+
+.bkC{
+  background-color: black;
+  flex-direction: stretch;
+}
+
+@keyframes frst {
+  0% {background-color: red;}
+  25% {background-color: orange;}
+  50% {background-color: grey;}
+  75% {background-color: blue;}
+  100% {background-color: green;}
+}
+
+@keyframes snd {
+    0% {background-color: yellow; font-size: 50px ;}
+    5% {background-color: blue;}
+    10% {background-color: yellow;}
+    15% {background-color: blue;}
+    20% {background-color: yellow;}
+    25% {background-color: blue;}
+    30% {background-color: red;}
+    35% {background-color: black;}
+    40% {background-color: red;}
+    45% {background-color: black;}
+    50% {background-color: red;}
+    55% {background-color: black;}
+    60% {background-color: red;}
+    75% {background-color: black;}
+    80% {background-color: red;}
+    85% {background-color: black;}
+    90% {background-color: red;}
+    90.5% {background-color: black;}
+    91% {background-color: red;}
+    91.5% {background-color: black;}
+    92% {background-color: red;}
+    92.5% {background-color: black;}
+    93% {background-color: red;}
+    93.5% {background-color: black;}
+    94% {background-color: red;}
+    94.5% {background-color: black;}
+    95% {background-color: red;}
+    95.5% {background-color: black;}
+    96% {background-color: red;}
+    96.5% {background-color: black;}
+    97% {background-color: red;}
+    97.5% {background-color: black;}
+    98% {background-color: red;}
+    98.5% {background-color: black;}
+    99% {background-color: red;}
+    99.5% {background-color: black;}
+    100% {background-color: green;}
+
+
+}
+
+
+.OnB{
+  width: 100px;
+  height: 300px;
+  background: #F4A698;
+  transition: width 2.5s;
+  color: blue;
+  font-size: 40px;
+}
+
+.OnB:hover {
+  width: 400px;
+  height: 400px;
+  background: #5C95FF;
+  transform: rotate(270deg);
+  color: red;
+  font-size: 75px;
+  animation-name: frst;
+  animation-duration: 4s;
+
+}
+
+.text{
+  font-size: 65px;
+  text-align: center;
+}
+
+.text:hover{
+
+
+
+}
+.cubic{
+  width: 300px;
+  height: 100px;
+  background: #7e6c6c;
+  transition: height s;
+  transition: width 4s;
+  transition-timing-function: cubic-bezier(.86,.25,.02,.94);
+
+}
+
+.cubic:hover{
+  height: 600px;
+  width: 900px;
+  background: #04E762;
+  transform: rotate3d(0,1,0,180deg);
+  font-size: 100px;
+  color: blue;
+  animation-name: snd;
+  animation-duration: 8s;
+
+
+
+}
+
+.wild{
+  width: 300px;
+  height: 100px;
+  background: #7e6c6c;
+  transition: height 4s;
+  transition: width 4s;
+  transition-timing-function: cubic-bezier(.86,.25,.02,.94);
+}
